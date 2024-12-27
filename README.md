@@ -1,0 +1,1 @@
+This repository demonstrates a common, yet easily overlooked, bug in HTML: using an incorrect CSS selector in JavaScript to manipulate the DOM. The bug is subtle; the script tries to hide a div element using its ID, but a typo in the selector prevents the script from finding the element, resulting in no change in the HTML and the console logging an error.
